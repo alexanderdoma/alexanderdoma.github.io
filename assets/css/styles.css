@@ -31,7 +31,14 @@ header nav {
     margin-left: 3%;
 }
 .header_nav_others {
-    margin-right: 3%;
+    display: none;
+}
+
+@media (min-width: 768px){
+    .header_nav_others {
+        display: block;
+        margin-right: 3%;
+    }
 }
 .header_nav_others a {
     margin: 0 15px;
@@ -40,6 +47,19 @@ header nav {
     font-size: 20px;
 }
 
+
+.menu-mobile {
+    margin-right: 3%;
+}
+.menu-mobile img {
+    width: 2em;
+}
+
+@media(min-width: 768px){
+    .menu-mobile {
+        display: none;
+    }
+}
 /*Title*/
 .main_title {
     width: 94%;
