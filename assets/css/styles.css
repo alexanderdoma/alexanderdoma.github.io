@@ -1,0 +1,156 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    /* background-color: rgb(240, 231, 219); */
+}
+/* HEADER */
+.header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 20px 0;
+    background-color: #EEEEEE;
+    backdrop-filter: blur(10px)
+}
+
+.header__nav {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between
+}
+
+.header__nav > ul {
+    list-style: none
+}
+
+.header__nav > ul > li > a {
+    color: #1A202C;
+}
+
+.header__nav > ul > li > a:hover {
+    text-decoration: underline;
+    text-decoration-color: #1A202C;
+    text-underline-offset: 2px;
+}
+
+.header__nav__links-ul {
+    display: flex
+}
+
+.header__nav__links-ul > li {
+    display: flex;
+    padding:  0 10px;
+}
+
+/* BODY */
+main {
+    width: 50%;
+    margin: auto;
+}
+
+.summary-article {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.main__picture {
+    display: flex;
+    justify-content: center;
+}
+
+.main__picture > img {
+    width: 100%
+}
+
+.summary-article__container-text {
+    /* width: 70%; */
+    margin: auto;
+    padding: 10px 30px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+
+.summary-article__container-text > h1 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.summary-article__container-info {
+    padding: 15px 0;
+}
+.summary-article__container-info > h2, p{
+    text-align: start;
+}
+
+.summary-article__container-info > h2 {
+    font-size: 30px;
+}
+
+.works-article {
+    width: 70%;
+    margin: 0 auto 30px auto;
+}
+
+.works-article > h2, p {
+    text-align: start;
+}
+
+.works-article > a {
+    text-align: center;
+    color: #ffffff;
+    font-family: -apple-system, sans-serif;
+    margin: 15px auto 0 auto;
+    display: block;
+    border-radius: 5px;
+    width: 130px;
+    padding: 10px 15px;
+    background-color: #21E484;
+}
+
+.bio-article {
+    width: 70%;
+    margin: 0 auto 30px auto;
+}
+
+.bio-article__dates {
+    display: flex;
+    padding: 10px 0;
+}
+.bio-article__dates > h3 {
+    margin-right: 15px;
+}
+.hobbies-article {
+    width: 70%;
+    margin: 0 auto 30px auto;
+}
+
+.social-article {
+    width: 70%;
+    margin: 0 auto 30px auto;
+}
+
+.social-article > a{
+ padding: 10px 10px;
+ margin: 10px 0 0 0;
+ width: max-content;
+ display: block;
+ background-color: #21E484;
+ border-radius: 5px;
+ color: #ffffff;
+}
+
+footer > p {
+    font-family: -apple-system, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    color: #9A9895;
+}
